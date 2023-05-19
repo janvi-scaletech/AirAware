@@ -1,0 +1,18 @@
+@import '/src/assets/styles/variable';
+
+.topheader-wrapper {
+	background-color: $white;
+	color: $primary;
+
+	//padding: 0 15px;
+
+	.header {
+		background: $black;
+		padding: 0 20px;
+		height: 70px;
+
+		.navbar {
+			gap: 30px;
+		}
+	}
+}
