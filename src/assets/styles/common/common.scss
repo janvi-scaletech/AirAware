@@ -554,6 +554,9 @@
 .pt--25 {
 	@include paddingTop(25px);
 }
+.pt--50 {
+	@include paddingTop(50px);
+}
 
 .pr--0 {
 	@include paddingRight(0);
@@ -1207,6 +1210,9 @@
 
 .text--black {
 	color: $black;
+}
+.text--primary {
+	color: $primary;
 }
 
 /* Background

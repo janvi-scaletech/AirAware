@@ -107,6 +107,27 @@
 	.hide--sm {
 		display: block;
 	}
+	.dashboard-wrapper {
+		.dashboard-container {
+			.content-wrapper {
+				.text {
+					margin: 30px 30px;
+				}
+			}
+			.air-image {
+				width: 480px;
+				height: 480px;
+			}
+		}
+	}
+	.list-container {
+		.list-wrapper {
+			margin: 0px 24px;
+		}
+	}
+	.topheader-wrapper .header {
+		padding: 0px;
+	}
 }
 @media screen and (max-width: 425px) {
 	.show--xs {
