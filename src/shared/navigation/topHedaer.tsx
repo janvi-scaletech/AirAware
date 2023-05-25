@@ -7,8 +7,16 @@ const TopHeader = () => {
 				</div>
 				<div className='width--50 flex justify-content--end pr--40'>
 					<ul className='flex navbar align-items--center'>
-						<li className='cursor--pointer'>About</li>
-						<li className='cursor--pointer'>Articles</li>
+						<li className='cursor--pointer font--semi-bold '>
+							<a href='#about' className='text--primary'>
+								About
+							</a>
+						</li>
+						<li className='cursor--pointer font--semi-bold '>
+							<a href='#' className='text--primary'>
+								Blogs
+							</a>
+						</li>
 					</ul>
 				</div>
 			</div>

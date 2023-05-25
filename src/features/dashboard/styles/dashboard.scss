@@ -1,6 +1,32 @@
 .dashboard-wrapper {
-	.air-image {
-		width: 800px;
-		height: 600px;
+	background: #d6dad2;
+	.dashboard-container {
+		width: 100%;
+		max-width: 1200px;
+		margin: 0 auto;
+		.title {
+			margin-bottom: 50px;
+		}
+		.air-image {
+			width: 1200px;
+			height: 600px;
+		}
+		.content-wrapper {
+			.text {
+				background-color: #edf1e8;
+				padding: 30px 55px 45px 40px;
+			}
+		}
+	}
+}
+.list-container {
+	.list-wrapper {
+		border-radius: 4px;
+		box-shadow: 0 2px 20px 0 rgba(0, 0, 0, 0.08);
+		padding: 16px;
+		margin-bottom: 16px;
+		height: inherit;
+		background-color: #fff;
+		margin-right: 24px;
 	}
 }
